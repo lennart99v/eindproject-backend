@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "name": "lime/lime",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aheinze/lime.git",
+                "reference": "f8ffc08c6dc1fc54c627fb044e6130099575e9d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aheinze/lime/zipball/f8ffc08c6dc1fc54c627fb044e6130099575e9d6",
+                "reference": "f8ffc08c6dc1fc54c627fb044e6130099575e9d6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.2"
+            },
+            "time": "2015-08-28T07:42:19+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Lime": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Artur Heinze",
+                    "email": "faulancer@gmail.com",
+                    "homepage": "http://agentejo.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The PHP micro-framework",
+            "homepage": "https://github.com/aheinze/Lime",
+            "keywords": [
+                "lime",
+                "micro-framework",
+                "microframework",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/aheinze/lime/issues",
+                "source": "https://github.com/aheinze/lime/tree/1.0.0"
+            },
+            "install-path": "../lime/lime"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,13 @@
+{
+  "require": {
+    "lime/lime": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blog\\": "src"
+    }
+  },
+  "config": {
+    "platform-check": false
+  }
+}

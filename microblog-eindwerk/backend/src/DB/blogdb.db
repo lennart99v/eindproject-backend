@@ -1,0 +1,16 @@
+--
+-- File generated with SQLiteStudio v3.3.3 on ma dec 12 14:24:19 2022
+--
+-- Text encoding used: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: Blogs
+CREATE TABLE Blogs (
+    Posts STRING
+);
+
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;
